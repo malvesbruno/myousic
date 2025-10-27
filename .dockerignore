@@ -1,0 +1,28 @@
+# Ignorar dependências locais e cache
+target/
+.mvn/
+.mvnw
+.mvnw.cmd
+
+# Ignorar IDEs
+.idea/
+.vscode/
+*.iml
+
+# Ignorar Git
+.git/
+.gitignore
+
+# Ignorar arquivos temporários e do sistema
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Ignorar arquivos do Docker Compose
+docker-compose.yml
+
+# Ignorar arquivos de ambiente
+.env
